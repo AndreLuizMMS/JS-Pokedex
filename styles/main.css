@@ -30,7 +30,7 @@ body {
   left: 30%;
 }
 .pokemon-img {
-  width: 32%;
+  width: 25%;
 }
 
 .poke-data {
@@ -62,7 +62,7 @@ body {
   width: 100%;
   padding: 2% 1%;
 
-  box-shadow: -2px 3px 1px rgb(129, 129, 129), -3px 5px 1px black;
+  box-shadow: -2px 2.8px 1px rgb(129, 129, 129), -3px 5px 1px black;
  
   font-weight: bold;
   font-size: clamp(10px, 2vw, 2rem);  
@@ -89,7 +89,7 @@ body {
  background: rgb(78, 78, 78);
  border-radius: 5px;
  border: black solid 3px;
- box-shadow: -4px 5px 1px black;
+ box-shadow: -3px 4px 1px black;
 
 }
 
