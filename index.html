@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--  favicon -->
+    <link rel="icon" href="./images/favicon-16x16.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/main.css" />
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>PokeDex</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="poke-data">
+        <span class="poke-number"></span>
+        <span class="poke-name"></span>
+      </h1>
+      <form class="form">
+        <input
+          type="search"
+          class="search-input"
+          placeholder="Name or Number"
+          required
+        />
+      </form>
+      <div class="buttons">
+        <button class="prev-btn" onclick="filterSearch()">Prev</button>
+        <button class="prev-btn" onclick="filterSearch()">Next ></button>
+      </div>
+
+      <img src="" alt="" class="pokemon-img" />
+      <img src="./images/pokedex.png" alt="pokedex" class="pokedex" />
+    </div>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
